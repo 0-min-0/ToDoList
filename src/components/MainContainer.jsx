@@ -7,8 +7,8 @@ import '../styles/index.css'
 
 export const MainContainer = () => {
   return (
-    <div className='container'>
-      <h2>To-Do List</h2>
+    <div className='min-w-[30%] flex flex-col p-[40px] shadow-mine font-[font-mine] gap-[10px] rounded-[10px]'>
+      <h2 className='font-bold text-center text-[25px]'>To-Do List</h2>
       <TaskForm />
       <Options />
       <TaskList />

@@ -1,12 +1,12 @@
 import React from 'react'
-import './styles/App.css'
+import './styles/index.css'
 import { MainContainer } from './components/MainContainer'
 
 function App() {
 
   return (
     <>
-    <div className='main'>
+    <div className='w-screen h-screen flex justify-center items-center'>
     <MainContainer />
     </div>
     </>

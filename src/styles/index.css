@@ -1,123 +1,17 @@
 @import 'tailwindcss';
 
-/* @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.container {
-    min-width: 25%;
-    padding: 40px;
+@layer utilities {
+  .shadow-mine {
     box-shadow: 0px 10px 10px 0px #e4e4e4;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+  }
+
+  @font-face {
+    font-family: 'font-mine';
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+  }
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-input {
-    padding: 10px 20px;
-    border: 2px solid gray;
-    border-radius: 6px;
-    font-family: 'Poppins', sans-serif;
-}
-
-textarea {
-    padding: 10px 20px 35px 20px;
-    border-radius: 6px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.btnContainer {
-    margin-top: 15px;
-}
-
-.submitBtn {
-    width: 100%;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: #2b7fff;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.submitBtn:hover {
-    background-color: #1663d8;
-    transform: scale(1.05)
-}
-
-.submitBtn:active {
-    transform: scale(0.98)
-}
-
-.btns {
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-button {
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-}
-
-.list {
-    display: flex;
-    text-align: left;
-    border: solid 2px gray;
-    margin: 25px 0 0 0;
-    border-radius: 6px;
-}
-
-.mark {
-    display: flex;
-    gap: 15px;
-}
-
-.mark input {
-    margin: 0;
-    cursor: pointer;
-}
-
-ul {
-    width: 100%;
-    padding: 0 25px 20px;
-    margin: 0;
-}
-
-li {
-    list-style: none;
-}
-
-li p {
-    margin-top: 0;
-}
-
-.deleteBtn {
-    margin: 5px 0;
-    border: none;
-    color: white;
-    background-color: #ff4618;
-}
-
-.deleteBtn:hover {
-    background-color: #ce3e1a;
-    transform: scale(1.05)
-}
-
-.deleteBtn:active {
-    transform: scale(0.98)
-} */
